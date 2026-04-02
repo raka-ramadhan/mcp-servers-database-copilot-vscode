@@ -1,0 +1,23 @@
+{
+	"servers": {
+		"my-mcp-server-92ef62a6-laravel": {
+			"type": "stdio",
+			"command": "node",
+			"args": [
+				"dist/src/index.js",
+				"--mysql",
+				"--host",
+				"127.0.0.1",
+				"--database",
+				"laravel_projects",
+				"--port",
+				"3306",
+				"--user",
+				"read-docker",
+				"--password",
+				"password"
+			]
+		}
+	},
+	"inputs": []
+}
